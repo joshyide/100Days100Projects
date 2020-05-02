@@ -1,0 +1,71 @@
+html {
+    background: #A5E6D7;
+    background: -webkit-linear-gradient(top, #A5E6D7, #4060BA);
+    background: -moz-linear-gradient(top, #A5E6D7, #4060BA);
+    background: linear-gradient(to bottom, #A5E6D7, #4060BA);
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: #212630;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    min-width: 500px;
+    padding: 20px 0;
+    margin: 30vh auto;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.result {
+    font-weight: 500;
+    font-size: 34px;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.binary-input {
+    padding: 10px 25px;
+    width: 40%;
+    font-size: 24px;
+    background-color: #f2f5fd;
+    border: none;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+
+.binary-input:focus {
+    border: 1px solid #4060BA;
+    transition: all 0.5s;
+}
+
+input[type='submit'] {
+    border: none;
+    background-color: #4060BA;
+    font-weight: 500;
+    color: white;
+    padding: 10px 10px;
+    width: 40%;
+    font-size: 18px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 25px;
+    transition: all 0.5s 0.1s;
+}
+
+input[type='submit']:hover {
+    background-color: #e4ecff;
+    color: #141f3d;
+    transition: all 0.5s 0.1s;
+}
